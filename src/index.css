@@ -162,7 +162,8 @@ body {
         display: inline-block;
         top: 1.2em;
         background:#4ade80;
-        left: 230px;
+        /* left: 230px; */
+        left: 210px;
     }
 
 
