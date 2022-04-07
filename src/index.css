@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hina+Mincho&family=Jockey+One&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@200&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@500&family=Poppins:wght@200;300;500;600&family=Quicksand:wght@300;500;700&family=Roboto:wght@400;500&family=Ubuntu:wght@300&family=Zen+Antique+Soft&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline:0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Noto Serif', serif;
+}
+
+html{
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    line-height: inherit;
+    background: linear-gradient(to top right,#040404 0,#292d31); 
+    }
+    
+    body::-webkit-scrollbar {
+    display: none;
+    }
+
+    /* Navbar css */
+    nav{
+        box-shadow: 0px 13px 24px 0px rgba(0,0,0,0.8);
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    nav .navbar-collapse.collapse{
+        display: block;
+    }
+    .navbar-brand img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .nav-link{
+        /* font-size: 20.8px; */
+        font-size: 18px;
+        margin:0 16px;
+        color: #fff;
+    }
+    .nav-link:hover{
+        color: #4ade80;
+    }
+    
+   
+    
+/* Home page */
+
+#Home{
+    min-height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 32px;
+    color: #fff;
+    position: relative;
+}
+.firstheading{
+    /* font-size: 96px; */
+    font-size: 90px;
+    line-height: 1.2;
+    font-weight: bolder;
+    padding-top: 16px;
+}
+#firstone{
+    font-size:20.8px;
+    line-height: 1.5rem ;
+    padding-bottom: 48px;
+    font-weight: 450;
+    color: #dcfce7;
+}
+.text-gradient {
+    /* font-size: 70px;      */
+    font-size: 60px;     
+    background: linear-gradient(#fee140,#fa709a);       
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+    font-weight: 700;     
+    transition: all .4s ease;   
+  }
+  .arrow{
+      text-align: center;
+      font-size: 32px;
+      -moz-animation: bounce 2s infinite;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+      position: absolute;
+      bottom: 40px;
+      left: 48%;
+  }
+ 
+  @keyframes bounce{
+      0%,20%,50%,80%,100%{
+          transform: translateY(0);
+      }
+      40%{
+        transform: translateY(-30px);
+        transition: all .3s ease-in;
+      }
+      60%{
+        transform: translateY(-15px);
+        transition: all .3s ease-in-out;
+ 
+      }
+  }
+  @-webkit-keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+      transform: translateY(-30px);
+      transition: all .3s ease-in;
+    }
+    60%{
+      transform: translateY(-15px);
+      transition: all .3s ease-in-out;
+
+    }
+}
+@-moz-keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+      transform: translateY(-30px);
+      transition: all .3s ease-in;
+    }
+    60%{
+      transform: translateY(-15px);
+      transition: all .3s ease-in-out;
+
+    }
+}
+
+
+
+/* common css for heading */
+
+    #primary-head{
+        font-size: 40px;
+        color: #4ade80;
+        font-family: 'Hina Mincho', serif;
+        font-weight: 700;
+        line-height: 2;
+        position: relative;
+    }
+    #primary-head::after{
+        content: "";
+        width: calc( 91% - 120px);
+        height: 1px;
+        position: absolute;
+        display: inline-block;
+        top: 1.2em;
+        background:#4ade80;
+        left: 230px;
+    }
+
+
+/* About Page */
+section#About{
+    padding: 0px 14px 0px 10px;
+}
+
+#About{
+    /* min-height: 45vh; */
+    /* height: 45vh; */
+    padding-bottom: 45px;
+    padding-left: 32px;
+    color: #fff;
+}
+
+.commonp{
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.commonp2{
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff !important;
+}
+
+
+/* project page */
+
+section#Projects{
+    padding: 11.2px; 
+ }
+
+#Projects{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 45px;
+    padding-left: 32px;
+    color: #fff;
+    position: relative;    
+}
+.card-title{
+    font-size: 20px;
+}
+.projectinfo{
+    font-size: 18px;
+}
+.techuse{
+    color: #4ade80;
+}
+
+
+
+/* contact section start here */
+.Icon-social{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.emailhead{
+    padding: 17px 30px 30px 30px;
+}
+
+.Link{
+    margin: 0 32px;
+    color: #fff;
+    border: 1px solid #4ade80;
+    padding: 20px;
+    border-radius: 50%;
+}
+.email1{
+    font-size: 30px;
+    color: #D1D5DB;
+}
+
+/* Footer Section start here */
+.footer{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+
+}
+.heart{
+    font-size: 32px;
+    color: red;
+}
+
+
+@media(min-width:768px)  and (max-width:1600px)  {
+    .text-gradient{
+        font-size: 60px;
+    }
+    /* .firstheading{
+        font-size: 6rem;
+    } */
+    #primary-head{
+       font-size: 30px !important;
+    }
+    .commonp{
+        font-size: 18px;
+    }
+    .commonp2{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    
+}
+
+@media(max-width:1024px){
+    #primary-head::after{
+        
+        width: calc( 91% - 120px);
+        left: 180px;
+    }
+    .email1{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:991px){
+    nav .navbar-collapse.collapse{
+        overflow: hidden;
+    }
+    nav .navbar-collapse.active{
+        height: 100vh !important;
+    }
+    nav .navbar-collapse{
+        transition: .6s all ease-in-out;
+        height: 0 !important;
+    }
+    .nav-link{
+        font-size: 16px;
+        margin: 16px 0 ;
+        text-align: center;
+    }
+    .navbar-brand img{
+        width: 40px;
+        height: 40px;  
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .firstheading{
+        font-size: 72px;
+    }
+    .commonp{
+        font-size: 18px;
+    }
+    .commonp2{
+        font-size: 16px;
+    }
+    .email1{
+        font-size: 16px !important;
+    }
+    #primary-head::after{   
+        width: calc( 91% - 150px);
+        left:175px ;
+    }
+}
+
+
+@media (min-width:360px) and (max-width:768px){
+    .firstone{
+        font-size: 14px ;
+    }
+    .text-gradient{
+        font-size: 34px;
+    } 
+    #primary-head{
+        font-size: 24px;
+     }
+     .commonp{
+        font-size: 16px;
+    }
+    .commonp2{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    section{
+        padding: 12px !important;
+    }
+    .email1{
+        font-size: 16px !important;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .Icon-social{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Link{
+        margin: 0 16px;
+        color: #fff;
+        border: 1px solid #4ade80;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+   
+}
+
+@media (min-width:360px) and (max-width:640px) {
+    .firstheading{
+        font-size: 36px;
+        margin-bottom: 0px;
+        padding-top: 4.8px;
+    }
+    .footer{
+        font-size:14px !important;
+    }
+    .heart{
+        font-size:20px ;
+    }
+    .emailhead{
+        /* border: 2px solid #fff; */
+        padding: 20px;
+        text-align: center;
+    }
+     
+}
+    @media (max-width:600px) {
+        #primary-head{
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        .commonp{
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        #primary-head::after{
+            width: 55%; 
+            left: 145px;
+            height: 1px;
+        }
+       
+    }
+
+    @media(max-width:550px){
+        .emailhead{
+            border: 2px solid #fff;
+        }
+         
+    }
+   
