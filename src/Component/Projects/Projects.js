@@ -48,7 +48,7 @@ const Projects = () => {
 <div className="container py-md-5  py-sm-2 ">
   <div className="row">
     <div className="col-sm-12">
-      <h1 id='primary-head' className='pb-md-3'>Personal Projects  </h1>
+      <h1 id='primary-head' className='pb-md-3'>Personal Projects</h1>
     </div>
    
    

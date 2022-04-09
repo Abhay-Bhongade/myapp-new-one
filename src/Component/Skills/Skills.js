@@ -6,7 +6,7 @@ const Skills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-sm-12">
-                    <h1 id='primary-head'>Frontend Skills</h1>
+                    <h1 id='primary-head'>Skill Set</h1>
                     <p className='commonp'>Here are a few technologies I've been working with</p>
                     </div>
                     
