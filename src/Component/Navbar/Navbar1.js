@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import {a} from 'react-router-dom'
 
 const Navbar1 = () => {
     const [show, setShow] = useState(true)
