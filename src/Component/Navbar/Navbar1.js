@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import {a} from 'react-router-dom'
 
 const Navbar1 = () => {
     const [show, setShow] = useState(true)
@@ -8,7 +9,7 @@ const Navbar1 = () => {
    
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-1 text-uppercase">
   <div className="container">
-    <a className="navbar-brand text-info" href="https://github.com/Abhay-Bhongade" rel="noopener noreferrer" target="_blank"> <img src="images/brandlogo.jpg" alt="" /> </a>
+    <a className="navbar-brand text-info" href="#Home" rel="noopener noreferrer"> <img src="images/brandlogo.jpg" alt="" /> </a>
     <button className="navbar-toggler border border-info text-info  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>setShow(!show)}>
     {show? <MenuIcon /> :<CloseIcon/> }
     </button>
