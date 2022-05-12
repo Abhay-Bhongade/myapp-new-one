@@ -16,7 +16,7 @@ const Home = () => {
                         cursor
                         cursorStyle='|'
                         typeSpeed={50}
-                        delaySpeed={100}
+                        delaySpeed={400}
                         deleteSpeed={110}
                         words={["Frontend Dev","Web Designer","Javascript Dev"]}
                />  </h3>

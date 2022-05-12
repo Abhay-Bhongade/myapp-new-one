@@ -25,9 +25,9 @@ const Projects = () => {
     {
       id:3,
       image :"images/todoapp.png" ,
-      ProjectName:"Todo App",
+      ProjectName:"To-do App",
       Technology:"React LocalStorage",
-      ProjectInfo:"A Todo App created using React with local Storage, where user can maintain his day to day tasks and also prioritize the tasks.",
+      ProjectInfo:"A To-do App created using React with local Storage, where user can maintain his day to day tasks and also prioritize the tasks.",
       Link1:"https://github.com/Abhay-Bhongade/todoAppfirst",
       Link2:"https://dailytodotasks.netlify.app/",
     },
