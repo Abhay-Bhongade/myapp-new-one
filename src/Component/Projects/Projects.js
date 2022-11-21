@@ -6,40 +6,29 @@ const Projects = () => {
   const Projects = [
     {
       id:1,
-      image :"images/quizapp.webp" ,
-      ProjectName:"Quiz App",
-      Technology:"React TriviaApi",
-      ProjectInfo:"A Quiz App created using Trivia Api with 22 categories , Where one can give a quiz and at last check his Score.",
-      Link1:"https://github.com/Abhay-Bhongade/react-quiz-app",
-      Link2:"https://quizhubfun.netlify.app/",
+      image :"images/retro.webp" ,
+      ProjectName:"E-commerce App",
+      Technology:"React Redux",
+      ProjectInfo:"Beyond Retro is home to a passionate all-star team of fashion and vintage experts committed to recycling while delivering a one-of-a-kind experience to our fashion-forward customers.Beyond Retro provides customers with on-trend items without a carbon footprint.",
+      Link1:" https://www.beyondretro.com",
     },
     {
       id:2,
-      image :"images/moviesapp.webp" ,
-      ProjectName:"Movie App",
-      Technology:"React ReduxToolkit",
-      ProjectInfo:"A Movie App created using omdbApi where user can select his favorite Movie/Tv show and watch it's details.",
-      Link1:"https://github.com/Abhay-Bhongade/movieapp",
-      Link2:"https://movieshubapp.netlify.app/",
+      image :"images/numetric.webp" ,
+      ProjectName:"Numetric App",
+      Technology:"React Redux",
+      ProjectInfo:"A bookkeeping solution that primarily focuses on small businesses in order to keep their accounting demands in fulfilled. This platform helps them to generate professional invoices, manage payment, inventory, generate accounting reports.",
+      Link1:"https://numetric.work",
     },
     {
       id:3,
-      image :"images/todoapp.png" ,
-      ProjectName:"To-do App",
-      Technology:"React LocalStorage",
-      ProjectInfo:"A To-do App created using React with local Storage, where user can maintain his day to day tasks and also prioritize the tasks.",
-      Link1:"https://github.com/Abhay-Bhongade/todoAppfirst",
-      Link2:"https://dailytodotasks.netlify.app/",
+      image :"images/fatoura.webp" ,
+      ProjectName:"Fatoura App",
+      Technology:"React",
+      ProjectInfo:"A platform for young retailers that wish to make professional-looking invoices, bills, payment receipts, quotations, and other documents.Fatoura.work was built to serve freelancers and business owners with a complete suite of invoicing & payment tools.",
+      Link1:"https://fatoura.work",
     },
-    {
-      id:4,
-      image :"images/e-commerce.webp" ,
-      ProjectName:"E-commerce App",
-      Technology:"React Redux",
-      ProjectInfo:"A dummy super market E-commerce Application,where user can select from variety of Products and add items to his cart.",
-      Link1:"https://github.com/Abhay-Bhongade/E-commerce-App-Made-with-React-Redux",
-      Link2:"https://sabka-bazar-demoapp.netlify.app/",
-    }
+   
   ]
 
 
@@ -63,8 +52,8 @@ const Projects = () => {
           <h3 className="card-title text-light">{ProjectName}</h3>
           <h6 className="card-subtitle my-1 techuse">{Technology}</h6>
           <p className="card-text text-light projectinfo">{ProjectInfo}</p>
-          <a href={Link1} target="_blank" rel="noopener noreferrer" className="card-link "><GitHubIcon fontSize='large' /></a>
-          <a href={Link2} target="_blank" rel="noopener noreferrer" className="card-link "><OpenInBrowserRoundedIcon  fontSize='large' /></a>
+          {/* <a href={Link1} target="_blank" rel="noopener noreferrer" className="card-link "><GitHubIcon fontSize='large' /></a> */}
+          <a href={Link1} target="_blank" rel="noopener noreferrer" className="card-link "><OpenInBrowserRoundedIcon  fontSize='large' /></a>
         </div>
       </div>
           </div> 

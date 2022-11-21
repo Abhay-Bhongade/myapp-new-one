@@ -14,15 +14,13 @@ const Skills = () => {
                             <p className='commonp2'>&#5125; &nbsp; Javascript</p>
                             <p className='commonp2'>&#5125; &nbsp; React</p>
                             <p className='commonp2'>&#5125; &nbsp; Redux</p>
-                            <p className='commonp2'>&#5125; &nbsp; Material UI</p>
-                            <p className='commonp2'>&#5125; &nbsp; Jest</p>
+                            <p className='commonp2'>&#5125; &nbsp; Git</p>
                         </div>
                         <div className="col-lg-3 col-sm-4">
                             <p className='commonp2'>&#5125; &nbsp; HTML</p>
                             <p className='commonp2'>&#5125; &nbsp; CSS</p>
                             <p className='commonp2'>&#5125; &nbsp; Bootstrap</p>
                             <p className='commonp2'>&#5125; &nbsp; SaSS</p>
-                            <p className='commonp2'>&#5125; &nbsp; Git and Gitlab</p>
                         </div>
                     </div>
             

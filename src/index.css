@@ -214,6 +214,7 @@ section#Projects{
 }
 .projectinfo{
     font-size: 18px;
+    text-align:left;
 }
 .techuse{
     color: #4ade80;

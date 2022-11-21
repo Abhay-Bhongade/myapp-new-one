@@ -7,15 +7,16 @@ const About = () => {
         <div className="row">
           <div className="col-sm-12">
             <h1 id='primary-head'>Brief about me</h1>
-            <p className='commonp'> &#8226; Hi, I am Abhay and I refuse to make boring Websites :)</p>
-            <p className='commonp'> &#8226; I started web development from last one year...Fast forward to today, I am a self thaught web developer ,currently working on front-end development.</p>
-            <p className='commonp'>&#8226; I have a passion for coding, and enjoy bringing ideas to life in the browser. My goal is to deliver results with perfection. I am a curious learner and enjoy exploring new technologies.</p>
-            <p className='commonp'>&#8226;  I am expressive, proactive and multi-talented spirit with a natural ability to entertain and inspire. I believe in working hard and partying harder.</p>
+            <p className='commonp'> &#8226; I'm Abhay Bhongade, a 24-year-old Front End developer living in Indore, Madhya Pradesh  :)</p>
+            <p className='commonp'> &#8226; I have around 6 months of hands-on experience in efficiently coding websites and applications using modern HTML, CSS and Javascript in React.</p>
+            <p className='commonp'>&#8226; I like to improve user experience, create smart user interfaces, developing rich web applications and managing & optimizing frontend infrastructure including performance,scalability, and efficiency.</p>
+            <p className='commonp'>&#8226; Currently working as a Front End Developer at Brain Inventory. Primarily interested in JavaScript frontend, Working on interesting projects.</p>
           </div>
         </div>
        
       </div>
     </section>
+   
   )
 }
 
