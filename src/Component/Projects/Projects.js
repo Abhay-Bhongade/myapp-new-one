@@ -1,5 +1,4 @@
 import React from 'react';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserRoundedIcon from '@mui/icons-material/OpenInBrowserRounded';
 
 const Projects = () => {
@@ -24,7 +23,7 @@ const Projects = () => {
       id:3,
       image :"images/fatoura.webp" ,
       ProjectName:"Fatoura App",
-      Technology:"React",
+      Technology:"React Redux",
       ProjectInfo:"A platform for young retailers that wish to make professional-looking invoices, bills, payment receipts, quotations, and other documents.Fatoura.work was built to serve freelancers and business owners with a complete suite of invoicing & payment tools.",
       Link1:"https://fatoura.work",
     },
@@ -43,7 +42,7 @@ const Projects = () => {
    
     {
       Projects.map((data)=>{
-        const {image,ProjectName,Technology,ProjectInfo,id,Link1,Link2} = data;
+        const {image,ProjectName,Technology,ProjectInfo,id,Link1} = data;
         return(
           <div className="col-lg-4 col-sm-6 pb-4" key={id}>
           <div className="card bg-dark">
@@ -52,7 +51,6 @@ const Projects = () => {
           <h3 className="card-title text-light">{ProjectName}</h3>
           <h6 className="card-subtitle my-1 techuse">{Technology}</h6>
           <p className="card-text text-light projectinfo">{ProjectInfo}</p>
-          {/* <a href={Link1} target="_blank" rel="noopener noreferrer" className="card-link "><GitHubIcon fontSize='large' /></a> */}
           <a href={Link1} target="_blank" rel="noopener noreferrer" className="card-link "><OpenInBrowserRoundedIcon  fontSize='large' /></a>
         </div>
       </div>
