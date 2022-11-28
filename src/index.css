@@ -74,8 +74,9 @@ body {
     font-size:20.8px;
     line-height: 1.5rem ;
     padding-bottom: 48px;
-    font-weight: 450;
+    font-weight: 700;
     color: #dcfce7;
+    letter-spacing: 1px;
 }
 .text-gradient {
    
@@ -93,7 +94,7 @@ body {
       -webkit-animation: bounce 2s infinite;
       animation: bounce 2s infinite;
       position: absolute;
-      bottom: 40px;
+      bottom: 20px;
       left: 48%;
   }
  

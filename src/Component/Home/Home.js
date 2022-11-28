@@ -9,7 +9,8 @@ const Home = () => {
    <div className="container" id='Home'>
        <div className="row">
            <div className="col-sm-12">
-               <span id='firstone'>Code &#8226; Cofee  &#8226; Codeplay</span>
+               {/* <span id='firstone'>Code &#8226; Cofee  &#8226; Codeplay</span> */}
+               <span id='firstone'>Welcome to my Portfolio,</span>
                <h1 className='firstheading'>Hi, I'm Abhay Bhongade</h1> <br/>
                <h3 className='text-gradient'> <Typewriter
                         loop
@@ -18,7 +19,7 @@ const Home = () => {
                         typeSpeed={50}
                         delaySpeed={400}
                         deleteSpeed={110}
-                        words={["Frontend Dev","Web Designer","Javascript Dev"]}
+                        words={["Frontend Developer","Web Designer","Javascript Developer"]}
                />  </h3>
                <div className='arrow'> <KeyboardArrowDownIcon /> </div>
            </div>
