@@ -221,6 +221,14 @@ section#Projects{
     color: #4ade80;
 }
 
+.link-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.img-height{
+    height: 200px;
+}
 
 
 /* contact section start here */
@@ -257,6 +265,7 @@ section#Projects{
     font-size: 32px;
     color: red;
 }
+
 
 
 @media(min-width:768px)  and (max-width:1600px)  {

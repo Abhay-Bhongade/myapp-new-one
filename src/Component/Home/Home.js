@@ -19,7 +19,7 @@ const Home = () => {
                         typeSpeed={50}
                         delaySpeed={400}
                         deleteSpeed={110}
-                        words={["Frontend Developer","Web Designer","Javascript Developer"]}
+                        words={["React Developer","Frontend Developer","Javascript Developer","Web Designer"]}
                />  </h3>
                <div className='arrow'> <KeyboardArrowDownIcon /> </div>
            </div>
