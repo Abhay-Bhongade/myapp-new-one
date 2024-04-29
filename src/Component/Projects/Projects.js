@@ -3,24 +3,9 @@ import OpenInBrowserRoundedIcon from '@mui/icons-material/OpenInBrowserRounded';
 
 const Projects = () => {
   const Projects = [
+    
     {
       id:1,
-      image :"images/Oranje.webp" ,
-      ProjectName:"Orange App",
-      Technology:"React Redux",
-      ProjectInfo:"At Oranje Hotel Management, we've engineered a robust hotel management system. This platform facilitates efficient collaboration between administrators and collaborators across various hotels. With role-based access controls, including Admin, Recruiter, QA Inspector, Hotel Manager, and Accountant, we've optimized scalability and usability for seamless operations in the hospitality sector.",
-      Link1:"https://oranjepeople.com/login",
-    },
-    {
-      id:2,
-      image :"images/ChampionLister.JPEG" ,
-      ProjectName:"Championlister App",
-      Technology:"React Redux",
-      ProjectInfo:"ChampionLister simplifies bulk product distribution for sellers by providing a single platform to sell across major marketplaces like Amazon, Walmart, and eBay. With streamlined inventory management and seamless integration, sellers can expand their reach and increase profits without the hassle of managing multiple platforms individually.",
-      Link1:"https://app.championlister.com",
-    },
-    {
-      id:3,
       image :"images/MppDisha.png" ,
       ProjectName:"MPP Disha App",
       Technology:"React Redux",
@@ -28,12 +13,28 @@ const Projects = () => {
       Link1:"http://disha.parimalabs.in/login",
     },
     {
-      id:4,
+      id:2,
       image :"images/ConstructionAPP.webp" ,
       ProjectName:"Constructor App",
       Technology:"React Redux",
       ProjectInfo:"Constructor App a specialized online marketplace catering to the construction industry. Users can buy and sell construction materials, tools, and equipment, leveraging social networking features akin to Poshmark. This platform facilitates seamless transactions, empowering users within the construction sector to connect, trade, and thrive.",
       Link1:"https://poshmark.com/",
+    },
+    {
+      id:3,
+      image :"images/Oranje.webp" ,
+      ProjectName:"Orange App",
+      Technology:"React Redux",
+      ProjectInfo:"At Oranje Hotel Management, we've engineered a robust hotel management system. This platform facilitates efficient collaboration between administrators and collaborators across various hotels. With role-based access controls, including Admin, Recruiter, QA Inspector, Hotel Manager, and Accountant, we've optimized scalability and usability for seamless operations in the hospitality sector.",
+      Link1:"http://13.60.32.195/login",
+    },
+    {
+      id:4,
+      image :"images/ChampionLister.JPEG" ,
+      ProjectName:"Championlister App",
+      Technology:"React Redux",
+      ProjectInfo:"ChampionLister simplifies bulk product distribution for sellers by providing a single platform to sell across major marketplaces like Amazon, Walmart, and eBay. With streamlined inventory management and seamless integration, sellers can expand their reach and increase profits without the hassle of managing multiple platforms individually.",
+      Link1:"https://app.championlister.com",
     },
     // {
     //   id:5,
